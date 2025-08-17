@@ -31,6 +31,7 @@ def main(page: ft.Page):
         text_align=ft.MainAxisAlignment.CENTER 
     )
     
+    # Funcao para subtexto
     def texto(text_view: str):
         return ft.Text(text_view, size=15, color=ft.Colors.with_opacity(0.3, ft.Colors.WHITE))
     
