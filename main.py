@@ -36,7 +36,7 @@ def main(page: ft.Page):
         return ft.Text(text_view, size=15, color=ft.Colors.with_opacity(0.3, ft.Colors.WHITE))
     
     save_btn = ft.ElevatedButton(
-        "GERAR",
+        "GERAR PDF",
         height=50,
         width=110,
         icon=ft.Icons.PICTURE_AS_PDF_OUTLINED,
